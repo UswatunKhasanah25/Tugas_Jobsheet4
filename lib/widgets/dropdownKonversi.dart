@@ -24,7 +24,6 @@ class DropdownKonversi extends StatelessWidget {
       }).toList(),
         value: newValue,
         onChanged: dropdownOnChanged,
-        onTap: konversiSuhu,
     );
   }
 }
